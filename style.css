@@ -729,3 +729,14 @@ h1 {
   }
 
 }
+
+
+.song-list {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+@media (max-width: 640px) {
+    .song-list {
+          grid-template-columns: minmax(0, 1fr);
+    }
+}
